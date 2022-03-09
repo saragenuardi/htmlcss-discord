@@ -38,7 +38,9 @@ a {
     float: left;
 }
 
-
+.mb{
+    margin-bottom: 6em;
+}
 
 /* BUTTONS */
 
@@ -149,4 +151,29 @@ header {
 
 .banner-content .buttons .btn-large {
     margin-right: 1em;
+}
+
+/* PLACE SECTION */
+
+.place {
+    padding: 6em;
+}
+
+.col-img {
+    width: 60%;
+}
+
+.col-text {
+    width: 40%;
+}
+
+.place-title {
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
+}
+
+/* EAST SECTION */
+
+.grey {
+    background-color: #F6F6F6;
 }
