@@ -38,17 +38,33 @@ a {
     float: left;
 }
 
+
+
 /* BUTTONS */
+
+.button {
+    display: inline-block;
+    border-radius: 50px;
+}
+
 .btn-white {
     background-color: white;
     color: black;
+}
 
+.btn-dark {
+    background-color: #23272A;
+    color: white;
 }
 
 .btn-small {
     padding: 0.6em 1em;
-    border-radius: 50px;
     font-size: 0.9em;
+}
+
+.btn-large {
+    padding: 0.8em 1.5em;
+    font-size: 1.2em;
 }
 
 /* TEXT */
@@ -80,6 +96,10 @@ header {
 
 .nav-btn {
     text-align: right;
+}
+
+.nav-btn a {
+    line-height: normal;
 }
 
 .nav-center {
@@ -121,4 +141,12 @@ header {
 .banner-content .content-title  {
     font-size: 2.5em;
     margin-bottom: 0.8em;
+}
+
+.banner-content .buttons {
+   margin-top: 2em; 
+}
+
+.banner-content .buttons .btn-large {
+    margin-right: 1em;
 }
