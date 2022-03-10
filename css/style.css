@@ -38,9 +38,10 @@ a {
     float: left;
 }
 
-.mb{
-    margin-bottom: 6em;
+.grey {
+    background-color: #F6F6F6;
 }
+
 
 /* BUTTONS */
 
@@ -56,6 +57,11 @@ a {
 
 .btn-dark {
     background-color: #23272A;
+    color: white;
+}
+
+.btn-violet {
+    background-color: purple;
     color: white;
 }
 
@@ -162,7 +168,7 @@ header {
     margin-right: 1em;
 }
 
-/* SECTION */
+/* SECTIONS */
 
 .place {
     padding: 6em;
@@ -195,8 +201,37 @@ header {
     padding-right: 2em;
 }
 
-/* EAST SECTION */
 
-.grey {
-    background-color: #F6F6F6;
+/* TECNOLOGY SECTION */
+.tech {
+    padding: 3em 0;
 }
+
+.tech-text {
+    text-align: center;
+    padding: 0 3em;
+}
+
+/* ready section */
+
+.ready {
+    padding-bottom: 2em;
+}
+
+.ready-title {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ready .buttons {
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* FOOTER */
+
