@@ -123,6 +123,15 @@ header {
 
 /* MAIN */
 
+.wave img {
+    display: inline-block;
+}
+
+.wave.down {
+    margin-top: -2px;
+    transform: rotate(180deg);
+}
+
 /* BANNER */
 
 .banner {
@@ -153,7 +162,7 @@ header {
     margin-right: 1em;
 }
 
-/* PLACE SECTION */
+/* SECTION */
 
 .place {
     padding: 6em;
@@ -167,9 +176,23 @@ header {
     width: 40%;
 }
 
+.col-text .place-title {
+    margin-top: 1em;
+    font-size: 3em;
+}
+
+.col-text .text {
+    font-size: 1.5em;
+}
+
 .place-title {
     font-size: 2.5em;
     margin-bottom: 0.8em;
+}
+
+.place-content  .img-first img {
+    padding-left: 0;
+    padding-right: 2em;
 }
 
 /* EAST SECTION */
