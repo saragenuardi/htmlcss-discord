@@ -61,7 +61,7 @@ a {
 }
 
 .btn-violet {
-    background-color: purple;
+    background-color: #8EA1E1;
     color: white;
 }
 
@@ -234,4 +234,65 @@ header {
 }
 
 /* FOOTER */
+footer {
+    padding: 2em 0;
+    background-color: #23272A;
+}
 
+/* footer top  */
+
+.footer-top {
+    padding: 1em;
+}
+
+.col-menu {
+    width: calc(100%/6);
+}
+
+.col-social h4 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: purple;
+}
+
+.col-social {
+    width: calc(100%/3);
+}
+
+.language {
+    margin-bottom: 1em;
+    color: white;
+}
+
+.language img {
+    width: 10%;
+}
+
+
+.social li {
+    display: inline-block;
+}
+
+.col-menu h5 {
+    margin-bottom: 1em;
+    font-size: 0.5em;
+}
+
+.social li a {
+
+}
+
+/* footer bottom */
+
+.footer-bottom {
+
+}
+
+.footer-menu li {
+    margin-bottom: 0.5em;
+} 
+
+
+.col-left, .col-right {
+    width: 50%;
+}
